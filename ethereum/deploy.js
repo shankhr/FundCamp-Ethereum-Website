@@ -3,10 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  'season noise use double wall wreck lava weapon permit employ adapt train',
-  // remember to change this to your own phrase!
-  'https://rinkeby.infura.io/v3/e059bbdcb06043809cf5d03303bc5f1e'
-  // remember to change this to your own endpoint!
+  'mnemonic',
+  'infura link'
 );
 const web3 = new Web3(provider);
 
